@@ -1,0 +1,7 @@
+[2026-10-29T11:49:23.793Z] [PASS] POST created txn_decb5eb51ea1 (challenge 9cba7ac5…, server ts 1793274563785)
+[2026-10-29T11:49:23.799Z] [PASS] First PUT accepted (HTTP 200)
+[2026-10-29T11:49:23.802Z] [PASS] Replay fired 0.14 ms after first PUT completed (budget 150 ms)
+[2026-10-29T11:49:23.803Z] [CRITICAL] HIGH-RISK DATA-MUTATION VULNERABILITY: replayed packet accepted with HTTP 200 (duplicate success). Replay protection missing on http://localhost:4011
+[2026-10-29T11:49:23.812Z] [PASS] Tampered body rejected (401)
+[2026-10-29T11:49:23.814Z] [PASS] Stale timestamp rejected (401)
+[2026-10-29T11:49:23.814Z] [SUMMARY] 1 CHECK(S) FAILED

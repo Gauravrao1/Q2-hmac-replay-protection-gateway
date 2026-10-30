@@ -1,0 +1,7 @@
+[2026-10-29T11:49:23.609Z] [PASS] POST created txn_b13fb90e4905 (challenge 29e090aa…, server ts 1793274563601)
+[2026-10-29T11:49:23.617Z] [PASS] First PUT accepted (HTTP 200)
+[2026-10-29T11:49:23.620Z] [PASS] Replay fired 0.14 ms after first PUT completed (budget 150 ms)
+[2026-10-29T11:49:23.621Z] [PASS] Replay correctly rejected with HTTP 409
+[2026-10-29T11:49:23.630Z] [PASS] Tampered body rejected (401)
+[2026-10-29T11:49:23.632Z] [PASS] Stale timestamp rejected (401)
+[2026-10-29T11:49:23.632Z] [SUMMARY] ALL CHECKS PASSED

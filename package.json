@@ -1,0 +1,2 @@
+{ "name": "q2-hmac-replay-suite", "version": "1.0.0",
+  "scripts": { "server": "node mock-server.js", "server:vulnerable": "VULNERABLE=1 PORT=4011 node mock-server.js", "test": "node q2-replay-test.js" } }
